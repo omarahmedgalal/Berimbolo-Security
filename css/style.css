@@ -1,0 +1,139 @@
+
+body {
+    background-color: #f6f6f6;
+}
+.navbar {
+    box-shadow: 0 7px 7px rgba(30, 34, 40, 0.5);
+    background-color: #1d2733; 
+}
+
+/* Header */
+header {
+    min-height: 100vh;
+    background: url('../images/CCTV.png') no-repeat center/cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.header-text {
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* About Section */
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+}
+
+#about .about-text {
+    max-width: 20%;
+    padding: 20px;
+}
+
+#about h5 {
+    letter-spacing: 2px;
+}
+
+section {
+    margin-bottom: 250px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+#services .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+#services .card {
+    border: none;
+    transition: all 0.3s;
+}
+
+/* Pricing Cards */
+#plans .card {
+    border: none;
+    transition: all 0.3s;
+}
+
+#plans .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#plans .card-body {
+    padding: 1rem;
+    text-align: center;
+}
+
+#plans .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 1.5rem;
+}
+
+#plans .card-text {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+#plans .display-6 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 1.5rem;
+}
+#team .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+#team .card {
+    border: none;
+    transition: all 0.3s;
+}
+
+
+#testimonial .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+#testimonial .card {
+    border: none;
+    transition: all 0.3s;
+}
+
+
+#security-tips .card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+#security-tips .card {
+    border: none;
+    transition: all 0.3s;
+}
+
+.btn {
+    border-radius: 40px; 
+    font-weight: bold;
+    background-color: #07102c; 
+    border-color: #283d52;
+    transition: all 0.3s;
+    background-color: #1d2733;
+    border-color: #041130; 
+}
+
+
+
